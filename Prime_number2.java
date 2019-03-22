@@ -6,7 +6,7 @@ public class prime_number2{
     System.out.println ("Enter last number");
     int e=abesh.nextInt();
     int count=0,number=0;
-    System.out.println("Prime numbers are:"); // can add 2 
+    System.out.println("Prime numbers are:"); // remove 1
     for(int i=s;i<=e;i++){
       for(int j=2;j<=i-1;j++){
         if(i%j==0){

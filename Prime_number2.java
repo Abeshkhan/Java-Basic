@@ -6,19 +6,19 @@ public class prime_number2{
     System.out.println ("Enter last number");
     int e=abesh.nextInt();
     int count=0,number=0;
-    System.out.println("Prime numbers are:");
+    System.out.println("Prime numbers are:"); // can add 2 
     for(int i=s;i<=e;i++){
-      for(int j=2;j<=i-1;i++){
+      for(int j=2;j<=i-1;j++){
         if(i%j==0){
           count++;
           break;
-        }
+        }}
       if(count==0){
         number++;
         System.out.print(i+" ");
-      }}
+      }
     count=0;}
      System.out.println();
     System.out.println("Total Prime Numbers:"+number);
-  }}
+  }} 
       

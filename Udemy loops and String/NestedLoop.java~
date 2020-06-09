@@ -1,0 +1,9 @@
+public class NestedLoop{
+  public static void main(String args[]){
+    
+      for(int inx=0;i<100;inx++){
+        for(int j=0;i<10;j++)
+      System.out.println("value : "+idx "....."+j);
+    }
+  }
+}
